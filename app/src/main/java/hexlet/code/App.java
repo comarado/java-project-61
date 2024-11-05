@@ -27,9 +27,19 @@ public class App {
                 if ((randomNumber % 2 == 0 && userEvenAnswer.equals("yes")) || (randomNumber % 2 != 0 && userEvenAnswer.equals("no"))) {
                     System.out.println("Correct!");
                     if (i == 2) {
-                        System.out.println("Congratulations, " + userName);
+                        System.out.println("Congratulations, " + userName + "!");
                     }
-                } else break;
+                } else if (randomNumber % 2 == 0 && userEvenAnswer.equals("no")) {
+                    System.out.println("'" + userEvenAnswer + "' is wrong answer ;(. Correct answer was 'yes'.");
+                    System.out.println("Let's try again, " + userName + "!");
+                    break;
+                } else if (randomNumber % 2 != 0 && userEvenAnswer.equals("yes")) {
+                    System.out.println("'" + userEvenAnswer + "' is wrong answer ;(. Correct answer was 'no'.");
+                    System.out.println("Let's try again, " + userName + "!");
+                    break;
+
+                }
+                    ;
 
                 //
             }
