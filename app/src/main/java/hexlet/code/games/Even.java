@@ -4,13 +4,13 @@ import java.util.Random;
 
 
 public class Even {
-    public static String userName;
+    /*public static String userName;
     public static String gameEven;
 
     Even() {
         this.userName = userName;
         this.gameEven = gameEven;
-    }
+    }*/
 
     public static void gameEven(String userName) {
         Scanner scanner2 = new Scanner(System.in);
