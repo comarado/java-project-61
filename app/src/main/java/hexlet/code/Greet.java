@@ -1,5 +1,4 @@
 package hexlet.code;
-
 import java.util.Scanner;
 
 public class Greet {
@@ -8,7 +7,8 @@ public class Greet {
         Greet() {
             this.greeting = greeting;
         }
-       public static String greeting() {
+
+        public static String greeting() {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Welcome to the Brain Games!");
             System.out.println("May I have your name?");
