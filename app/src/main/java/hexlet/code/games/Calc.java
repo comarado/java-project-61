@@ -30,37 +30,31 @@ public class Calc {
                 if (i == 2) {
                     System.out.println("Congratulations, " + userName + "!");
                 }
-            else if ((operator == '-') && (randomNumber - randomNumber2 == Integer.parseInt(userCalcAnswer))) {
+            } else if ((operator == '-') && (randomNumber - randomNumber2 == Integer.parseInt(userCalcAnswer))) {
                 System.out.println("Correct!");
                 if (i == 2) {
                     System.out.println("Congratulations, " + userName + "!");
                 }
-            else if ((operator == '*') &&((randomNumber * randomNumber2) == Integer.parseInt(userCalcAnswer))){
+            } else if ((operator == '*') && ((randomNumber * randomNumber2) == Integer.parseInt(userCalcAnswer))) {
                 System.out.println("Correct!");
                 if (i == 2) {
-                     System.out.println("Congratulations, " + userName + "!");
+                    System.out.println("Congratulations, " + userName + "!");
                 }
-                    }
-            else if ((operator == '+') && (randomNumber + randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                        System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
-                        System.out.println("Let's try again, " + userName + "!");
-                        break;
-                    }
-            else if ((operator == '-') && (randomNumber - randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                        System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
-                        System.out.println("Let's try again, " + userName + "!");
-                        break;
+            } else if ((operator == '+') && (randomNumber + randomNumber2 != Integer.parseInt(userCalcAnswer))) {
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("Let's try again, " + userName + "!");
+                break;
+            } else if ((operator == '-') && (randomNumber - randomNumber2 != Integer.parseInt(userCalcAnswer))) {
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("Let's try again, " + userName + "!");
+                break;
 
-                    }
-            else if ((operator == '*') &&(randomNumber * randomNumber2 != Integer.parseInt(userCalcAnswer))){
-                        System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
-                        System.out.println("Let's try again, " + userName + "!");
-                        break;
+            } else if ((operator == '*') && (randomNumber * randomNumber2 != Integer.parseInt(userCalcAnswer))) {
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("Let's try again, " + userName + "!");
+                break;
 
-                    }
-                }
             }
         }
     }
 }
-
