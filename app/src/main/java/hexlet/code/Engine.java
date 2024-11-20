@@ -1,6 +1,9 @@
 package hexlet.code;
 import java.util.Scanner;
 
+import hexlet.code.*;
+//import hexlet.code.games;
+
 public class Engine {
     /*public static String userName;
     //public static String gameEngine;
@@ -21,17 +24,17 @@ public class Engine {
         System.out.println("Your choice: " + userChoose);
 
         if (userChoose.equals("2")) {
-            String userName = Greet.greeting();
+            String userName = hexlet.code.Greet.greeting();
             System.out.println("SUKI SUKI SUKI SUKI");
-            //hexlet.code.games.Even.gameEven(userName);
+            hexlet.code.games.Even.gameEven(userName);
         } else if (userChoose.equals("1")) {
-            String userName = Greet.greeting();
+            String userName = hexlet.code.Greet.greeting();
         }
         else if (userChoose.equals("3")) {
-            String userName = Greet.greeting();
+            String userName = hexlet.code.Greet.greeting();
             hexlet.code.games.Calc.gameCalc(userName);
         } else if (userChoose.equals("4")) {
-            String userName = Greet.greeting();
+            String userName = hexlet.code.Greet.greeting();
             hexlet.code.games.GCD.gameGCD(userName);
         }
     }

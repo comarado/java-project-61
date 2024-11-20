@@ -2,12 +2,12 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Greet {
-    public static String greeting;
+    /*public static String greeting;
 
         Greet() {
             this.greeting = greeting;
         }
-
+*/
         public static String greeting() {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Welcome to the Brain Games!");
