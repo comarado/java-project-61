@@ -21,6 +21,7 @@ public class Engine {
         System.out.println("3 - Calc");
         System.out.println("4 - GCD");
         System.out.println("5 - Progression");
+        System.out.println("6 - Prime");
         System.out.println("0 - Exit");
         System.out.print("Your choice: ");
         String userChoose = scanner.next();
@@ -43,6 +44,10 @@ public class Engine {
             String userName = hexlet.code.Greet.greeting();
             hexlet.code.games.Progression.gameProgression(userName);
         }
+     else if (userChoose.equals("6")) {
+        String userName = hexlet.code.Greet.greeting();
+        hexlet.code.games.Prime.gamePrime(userName);
+    }
     }
 }
 
