@@ -28,7 +28,7 @@ public class Engine {
 
         if (userChoose.equals("2")) {
             String userName = hexlet.code.Greet.greeting();
-            System.out.println("SUKI SUKI SUKI SUKI");
+            //System.out.println("SUKI SUKI SUKI SUKI");
             hexlet.code.games.Even.gameEven(userName);
         } else if (userChoose.equals("1")) {
             String userName = hexlet.code.Greet.greeting();

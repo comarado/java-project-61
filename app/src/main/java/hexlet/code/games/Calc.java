@@ -42,7 +42,7 @@ public class Calc {
                     System.out.println("Congratulations, " + userName + "!");
                 }
             } else if ((operator == '+') && (randomNumber + randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + (randomNumber + randomNumber2 + "'.");
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + (randomNumber + randomNumber2) + "'.");
                 System.out.println("Let's try again, " + userName + "!");
                 break;
             } else if ((operator == '-') && (randomNumber - randomNumber2 != Integer.parseInt(userCalcAnswer))) {
