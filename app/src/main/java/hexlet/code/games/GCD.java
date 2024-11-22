@@ -34,6 +34,7 @@ public class GCD {
 
             System.out.println("Question: " + randomNumber + " " + randomNumber2);
             String userGCDAnswer = scanner2.next();
+            System.out.print("Your answer: ");
 
             if (count == Integer.parseInt(userGCDAnswer)) {
                 System.out.println("Correct!");

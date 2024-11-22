@@ -6,8 +6,8 @@ public class Greet {
 
         Greet() {
             this.greeting = greeting;
-        }
-*/
+        }*/
+
         public static String greeting() {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Welcome to the Brain Games!");

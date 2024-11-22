@@ -2,6 +2,7 @@ package hexlet.code;
 import java.util.Scanner;
 
 import hexlet.code.*;
+
 //import hexlet.code.games;
 
 public class Engine {
@@ -19,9 +20,11 @@ public class Engine {
         System.out.println("2 - Even");
         System.out.println("3 - Calc");
         System.out.println("4 - GCD");
+        System.out.println("5 - Progression");
         System.out.println("0 - Exit");
+        System.out.print("Your choice: ");
         String userChoose = scanner.next();
-        System.out.println("Your choice: " + userChoose);
+
 
         if (userChoose.equals("2")) {
             String userName = hexlet.code.Greet.greeting();
@@ -36,6 +39,9 @@ public class Engine {
         } else if (userChoose.equals("4")) {
             String userName = hexlet.code.Greet.greeting();
             hexlet.code.games.GCD.gameGCD(userName);
+        } else if (userChoose.equals("5")) {
+            String userName = hexlet.code.Greet.greeting();
+            hexlet.code.games.Progression.gameProgression(userName);
         }
     }
 }

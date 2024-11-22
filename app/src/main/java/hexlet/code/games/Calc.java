@@ -24,6 +24,7 @@ public class Calc {
             char operator = operandArray[random.nextInt(operandArray.length)];
             System.out.println("Question: " + randomNumber + operator + randomNumber2);
             String userCalcAnswer = scanner2.next();
+            System.out.print("Your answer: ");
 
             if ((operator == '+') && (randomNumber + randomNumber2 == Integer.parseInt(userCalcAnswer))) {
                 System.out.println("Correct!");
@@ -41,16 +42,16 @@ public class Calc {
                     System.out.println("Congratulations, " + userName + "!");
                 }
             } else if ((operator == '+') && (randomNumber + randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + (randomNumber + randomNumber2 + "'.");
                 System.out.println("Let's try again, " + userName + "!");
                 break;
             } else if ((operator == '-') && (randomNumber - randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + (randomNumber - randomNumber2) + "'.");
                 System.out.println("Let's try again, " + userName + "!");
                 break;
 
             } else if ((operator == '*') && (randomNumber * randomNumber2 != Integer.parseInt(userCalcAnswer))) {
-                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + Integer.parseInt(userCalcAnswer) + "'.");
+                System.out.println("'" + userCalcAnswer + "' is wrong answer ;(. Correct answer was '" + (randomNumber * randomNumber2) + "'.");
                 System.out.println("Let's try again, " + userName + "!");
                 break;
 

@@ -19,6 +19,7 @@ public class Even {
         for (int i = 0; i < 3; i++) {
             int randomNumber = random.nextInt(100);
             System.out.println("Question: " + randomNumber);
+            System.out.print("Your answer: ");
             String userEvenAnswer = scanner2.next();
 
             if ((randomNumber % 2 == 0 && userEvenAnswer.equals("yes")) || (randomNumber % 2 != 0 && userEvenAnswer.equals("no"))) {
